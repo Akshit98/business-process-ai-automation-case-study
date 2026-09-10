@@ -1,0 +1,24 @@
+flowchart TB
+  subgraph Current[Current state - supplied scenario]
+    A[Referrals / LinkedIn / website] --> B[Discovery call]
+    B --> C[Inconsistent HubSpot logging]
+    C --> D[Proposal / agreement]
+    D --> E[Asana setup]
+    E --> F[Consultant assignment]
+    F --> G[Delivery / client communication]
+    G --> H[Time tracking / billing]
+  end
+  subgraph Future[Future state - proposed]
+    I[Capture lead and assign owner] --> J[Discovery and reviewed notes]
+    J --> K{Required CRM fields complete?}
+    K -- No --> L[Sales corrects record]
+    L --> K
+    K -- Yes --> M{Scope approved and agreement signed?}
+    M -- No --> N[Hold for approval]
+    N --> M
+    M -- Yes --> O[Create or retrieve linked Asana project]
+    O --> P[Manager approves assignment]
+    P --> Q[Milestones and reviewed client updates]
+    Q --> R[Approved time and finance reconciliation]
+    O -. Failure .-> S[Exception queue and manual recovery]
+  end
