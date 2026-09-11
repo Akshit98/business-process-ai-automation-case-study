@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="499" height="590" preserveAspectRatio="xMinYMin meet" viewBox="0 0 499 590" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="499" height="590"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-590)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="574" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1148) scale(1,-1)">Current state / Commercial to setup</text>
+			<text x="0" y="541" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,1082) scale(1,-1)">01  Intake + discovery  |  Partner or consultant</text>
+			<rect x="0" y="488" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="515" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Referral / LinkedIn / website enquiry</text>
+			<text x="10" y="503" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1006) scale(1,-1)">Initial call to understand needs</text>
+			<rect x="255" y="488" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="515" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1030) scale(1,-1)">HubSpot logged OR sometimes skipped</text>
+			<text x="265" y="503" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1006) scale(1,-1)">Capture timing and owner unspecified</text>
+			<text x="4" y="474" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,948) scale(1,-1)">T1. Fast-moving referrals are one example; no frequency is given.</text>
+			<path d="M 249,464 L 249,450 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 453, 252 453, 249 448" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="438" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,876) scale(1,-1)">02  Fit decision  |  Criteria unspecified</text>
+			<rect x="0" y="385" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="412" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,824) scale(1,-1)">Good fit: prepare proposal</text>
+			<rect x="255" y="385" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="412" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,824) scale(1,-1)">No fit: follow-up / closure not described</text>
+			<text x="4" y="371" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,742) scale(1,-1)">T1. The no-fit outcome is an information gap, not a confirmed exit.</text>
+			<path d="M 249,361 L 249,347 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 350, 252 350, 249 345" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="335" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,670) scale(1,-1)">03  Proposal  |  Partner or senior consultant</text>
+			<rect x="0" y="282" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="309" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,618) scale(1,-1)">Formats vary; proposal sent to client</text>
+			<text x="10" y="297" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,594) scale(1,-1)">Revisions loop back to proposal author</text>
+			<rect x="255" y="282" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="309" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,618) scale(1,-1)">Acceptance: proceed to agreement</text>
+			<text x="265" y="297" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,594) scale(1,-1)">Rejection / silence handling unspecified</text>
+			<text x="4" y="268" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,536) scale(1,-1)">T2. Revision reasons and internal approval rules require discovery.</text>
+			<path d="M 249,258 L 249,244 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 247, 252 247, 249 242" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="232" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,464) scale(1,-1)">04  Agreement  |  Client signs</text>
+			<rect x="0" y="179" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="206" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,412) scale(1,-1)">Accepted proposal -&gt; signed agreement</text>
+			<rect x="255" y="179" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="206" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,412) scale(1,-1)">Internal owner and signing tool unknown</text>
+			<text x="4" y="165" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,330) scale(1,-1)">T3. A separately signed proposal is not established.</text>
+			<path d="M 249,155 L 249,141 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 144, 252 144, 249 139" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="129" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,258) scale(1,-1)">05  Setup  |  PM normally creates Asana + folders</text>
+			<rect x="0" y="76" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="103" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,206) scale(1,-1)">Normal: setup completes before work</text>
+			<rect x="255" y="76" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="103" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,206) scale(1,-1)">Urgent: work starts before setup finishes</text>
+			<text x="4" y="62" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,124) scale(1,-1)">T3. Early-start approval and assignment timing require clarification.</text>
+		</g>
+	</g>
+</svg>
