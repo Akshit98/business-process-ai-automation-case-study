@@ -151,3 +151,47 @@ Human checkpoint: Accounting checks scope and amount. Hourly time-entry rules do
 Start with capture and setup, then reminders and billing readiness. Add AI last. Verify tool editions, permissions, connector events, API limits and usage costs. Identify the existing accounting tool before automating invoices. Use deal ID plus agreement version for duplicate prevention; persist created IDs, assign failures to an Asana exception queue and retry only failed actions. Give either native integration or Make ownership of each write. Review every external proposal, client message and final invoice.
 
 Product references checked 11 September 2026.
+
+## Platform alternatives
+
+Choose one central automation platform. These recommendations are design judgments, not measured comparisons.
+
+### Make
+
+Recommended pilot for this multi-branch process. Visual routing across the existing stack; configure incomplete executions and retries for supported temporary failures. A workflow owner still maintains mappings, credentials, exception routing and usage limits.
+
+[Official reference](https://help.make.com/automatic-retry-of-incomplete-executions)
+
+### Zapier
+
+Alternative for simpler, operations-owned handoffs. Evaluate when the required triggers/actions are available and simpler setup matters most. Autoreplay and Human in the Loop support recovery and approvals. Confirm plan eligibility, task consumption and replay behavior. Complex branches still need careful design.
+
+[Official reference](https://help.zapier.com/hc/en-us/articles/19220226086797-What-is-replay)
+
+### n8n Cloud
+
+Alternative for custom logic with a technical owner. Evaluate for API-heavy integrations and more tailored processing. An Error Trigger can start an exception workflow. Managed hosting reduces infrastructure work; workflow logic, credentials, error handling and data quality still need ownership.
+
+[Official reference](https://n8n.io/integrations/error-trigger/)
+
+### n8n self-hosted
+
+Only with an accountable technical operator. Consider when infrastructure control is a real requirement and the team can operate it. Highest maintenance burden in this shortlist: upgrades, backups, security, availability and recovery become team responsibilities.
+
+[Official reference](https://github.com/n8n-io/n8n-docs/blob/main/docs/deploy/host-n8n/README.md)
+
+### Power Automate
+
+Conditional alternative for a Microsoft-centered firm. Evaluate if the organization already works mainly in Microsoft 365 and has Power Platform administration. Check the exact third-party connectors and licensing. It is not the default choice for the supplied HubSpot/Asana/Drive stack.
+
+[Official reference](https://learn.microsoft.com/en-us/power-automate/getting-started)
+
+## Lower-oversight operating model
+
+Keep Make for the proposed pilot; evaluate Zapier for simpler handoffs or n8n Cloud for technical customization. Prefer self-hosting only when a technical owner can maintain the infrastructure. Verify the exact connectors, licenses, workload costs and recovery behavior before selection.
+
+Validated capture, approved project setup, linking, reminders and draft preparation can run unattended after testing. Pricing, scope, urgent starts, resource conflicts, AI client content and invoice release retain approval.
+
+Enable bounded retries for temporary errors, prevent duplicates with event/deal/version identifiers, persist created IDs, reconcile eligible signed deals against project/folder records daily, and send exception alerts plus a daily summary. Give each exception an owner and backup. During the pilot, review exceptions daily and failure patterns weekly.
+
+Test duplicate events, missing fields, expired connections, outages, version changes and delayed approvals before reducing oversight. Measure successful eligible runs without manual intervention / all eligible runs, excluding approval-required decisions. Track exception age, duplicate records and reconciliation mismatches separately. No unattended completion rate is claimed.
