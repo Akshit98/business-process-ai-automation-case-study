@@ -1,65 +1,41 @@
-## Client delivery,
-from lead to invoice
+# Consulting Client Delivery Workflow Optimization & AI Automation
 
-Business workflow optimization and AI-assisted operations design
-**Akshit Didla | September 2026**
+**Akshit Didla | Process analysis and solution design | Independent portfolio project | 2026**
 
+## Project overview
 
-### The business question
+I analyzed a consulting firm's client-delivery workflow from a supplied discovery transcript. I mapped the process from lead intake to invoicing, documented its exceptions, and developed recommendations for more consistent records, ownership and billing readiness.
 
-How can a consulting firm carry complete, approved client information from the first enquiry through project delivery and billing, without relying on repeated manual handoffs?
+## My contribution
 
+My original assessment response covered the process summary, stakeholders, information gaps, follow-up questions, current-state diagram and improvement opportunities. This portfolio develops that analysis into a proposed future state, acceptance criteria, a KPI framework and a phased rollout plan.
 
-### Recommended direction
+Completed outputs: nine process stages, 15 follow-up discovery questions, seven issue assessments, five prioritized automation opportunities, seven proposed requirements and eight planned acceptance tests. These are artifact counts, not business outcomes.
 
-Establish consistent CRM records and explicit handoff gates first. Use rule-based automation for project creation and reminders. Add AI only for drafts that a named person checks before they become client commitments or operational records.
+## Central recommendation
 
-| PROJECT TYPE | DELIVERED IN THIS PORTFOLIO |
-| --- | --- |
-| Independent assessment-based case study | Current/future process map; root-cause hypotheses; automation requirements; KPI definitions; rollout and validation plan. |
-| Design stage | No live system access, implementation, stakeholder validation or measured business outcomes. |
+Standardize responsibilities and required records before connecting tools. Keep authorized urgent starts and partner assignments visible. Use rules for lead capture and time reminders; use AI selectively for reviewed proposal and status drafts.
 
+## Scope
 
-### Source and attribution
+Independent assessment-based portfolio project. I analyzed a supplied discovery transcript; I did not conduct the interview or implement changes in a production organization. The original question and my 16-page response were reviewed for this revision. No operational records, system access, timing baseline or production results are available. Company and stakeholder names are anonymized publicly. Portfolio preparation was AI-assisted.
 
-Based on the anonymized Business Workflow Analyst / AI Process Consultant assessment scenario supplied by the candidate. This is an independent portfolio project, not employment, a commissioned engagement or an endorsed company case study. The firm is treated generically throughout; no company logo or confidential client records are used.
+## Current-state stage register
 
+| Stage | Input | Output | Owner / uncertainty | Source |
+| --- | --- | --- | --- | --- |
+| Lead intake | Enquiry from referral / LinkedIn / website | Prospect ready for discovery; CRM entry may be absent | Logging owner and exact timing unclear | T1 |
+| Discovery | Client needs discussed | Fit decision; good-fit prospects proceed to proposal | Partner or consultant; criteria and no-fit handling unclear | T1 |
+| Proposal | Discovery information | Proposal; revisions may loop back before acceptance | Partner / senior consultant; internal approval rule unclear | T2 |
+| Agreement | Accepted proposal | Client-signed agreement | Client signs; internal owner and signing tool unclear | T3 |
+| Project setup | Signed engagement | Asana project and shared folders | PM normally; urgent work may start before completion | T3 |
+| Work assignment | Scope, availability and expertise | Assigned consultant(s) | PM normally, or partner directly for high-priority clients; capacity spreadsheet | T4 |
+| Delivery | Assigned work | Progress updates in Asana or Slack/email | Consultant; Asana updates usually expected weekly | T5 |
+| Client communication | Project progress | Weekly meeting, written report or quick call | Owner and selection rule unspecified; cadence varies | T6 |
+| Billing | Fixed-fee schedule OR hourly time entries | Invoice; hourly invoice delayed when time is late | Accounting for hourly invoices; fixed-fee ownership not explicitly stated | T7 |
 
-### Evidence boundary
+## Stakeholders and systems
 
-The supplied scenario establishes the workflow stages and inconsistent HubSpot logging. The original assessment transcript, timing data, volumes and system configuration were unavailable. Other pain points and root causes below are hypotheses to validate. All targets and delivery timings are proposed, not achieved.
+The managing partner and consultants conduct discovery; the partner and senior consultants create proposals. The PM normally sets up projects and assigns work. Consultants deliver and submit time. Accounting generates hourly invoices. Clients accept proposals, sign agreements and receive updates.
 
-
-## One workflow. Clear handoffs.
-
-Left: scenario-based reconstruction. Right: proposed design; roles and controls require stakeholder approval.
-
-
-### Exceptions are part of the process
-
-Unqualified leads close with a reason. Missing CRM fields return to the sales owner. Unsigned or changed scope blocks project creation. Capacity conflicts go to the delivery lead. Failed automation enters an exception queue. Disputed time returns to the consultant before finance approval.
-
-
-### Proposed systems of record
-
-HubSpot holds the commercial record and agreement reference. Asana holds delivery ownership, tasks and milestones. The approved time/billing system, still to be selected or confirmed, holds financial records. Shared deal and project IDs link these records; avoid copying financial details into task comments.
-
-
-## Make the handoff testable
-
-Proposed ownership: sales owner for commercial data; delivery lead for readiness and assignment; consultants for delivery/time; finance for invoices; operations owner for exceptions.
-
-| ID / requirement | Acceptance condition |
-| --- | --- |
-| R1 - Complete discovery record | A lead cannot enter proposal-ready status without source, owner, contact, discovery date, scope summary, next action and next-action date. Missing data returns a specific error. |
-| R2 - Approved delivery handoff | Create a project only when agreement status is signed, scope version is approved, a delivery lead is named and required identifiers exist. Sales owns corrections. |
-| R3 - One project per agreement version | A unique deal ID + approved agreement version is recorded with the Asana project ID. Replayed events return the existing link instead of creating another project. |
-| R4 - Controlled changes | A later scope change creates a review task. It cannot silently overwrite approved milestones, dates or fees. |
-| R5 - Recoverable failures | Each attempt records event ID, timestamp, result and error. Bounded retries are followed by a named exception owner and manual recovery checklist. |
-| R6 - Approved billing inputs | Time entries require consultant, date, project ID, activity and hours. The delivery lead approves entries; finance reconciles approved time and contractual billing basis before invoicing. |
-
-
-### Minimal handoff data contract
-
-deal_id; client_id; agreement_reference; agreement_version; approval_status; service_type; scope_summary; delivery_lead; target_start_date; milestone_template; project_id; handoff_timestamp. Keep billing rates in the authorized financial record. Confirm field availability, permissions and tool subscription limits during discovery.
-
+Known tools: HubSpot, Asana, Google Drive, Slack, email and a capacity spreadsheet. No contract, time-tracking or accounting product is named. The transcript does not establish a dedicated e-signature tool.

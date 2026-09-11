@@ -1,18 +1,13 @@
-## Where work can break
+# Evidence-based issue register
 
-Only inconsistent HubSpot logging is an explicit problem in the supplied scenario. The remaining rows are potential failure modes, not confirmed findings.
+Observed means stated in the supplied scenario, not independently audited in a live organization. Root causes remain hypotheses. P1/P2 are design priorities, not measured severity scores.
 
-| Pain point / status | Root-cause hypothesis | Validation and proposed response |
-| --- | --- | --- |
-| Incomplete CRM history / supplied | No consistent entry standard or owner at the discovery handoff. | Audit recent discovery records; ask who logs each field. Require source, owner, call date, next step and due date. |
-| Leads missed across channels / hypothesis | Referral and LinkedIn enquiries may stay outside a shared queue. | Compare channel records with CRM intake; introduce one capture route and an unassigned-lead queue. |
-| Setup rework / hypothesis | Agreement details may be retyped into project tasks. | Trace agreement-to-project handoffs; use approved fields and a project template. |
-| Assignment delays / hypothesis | Skills and availability may be checked informally. | Review assignment decisions with delivery lead; require a capacity check and named approver. |
-| Unclear delivery status / hypothesis | Milestones and client updates may have different owners. | Compare project records with update cadence; assign milestone owners and review overdue items. |
-| Billing delays / hypothesis | Time entries may lack project IDs or timely approval. | Trace invoice preparation; validate IDs, submission cutoffs and finance sign-off. |
-
-
-### Discovery questions before building
-
-Who owns a lead before discovery? What makes an agreement ready for delivery? Which service types need different project templates? Where are time and invoices recorded? What client-data restrictions apply? Capture answers and revise this design before a pilot.
-
+| ID | Area | Source | Observation | Business implication | Root-cause hypothesis | Validation | Priority |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| G1 | Lead capture | T1 | Some leads are not logged in HubSpot. | The CRM may omit active prospects; no missed-lead count or source-performance data is supplied. | Ownership, timing or intake rules may be unclear. | Reconcile enquiries with CRM; confirm who captures unscheduled and referral calls. | P1 |
+| G2 | Proposal consistency | T2 | Proposal formats vary; revisions occur. | Handoffs may be harder to compare. The transcript does not show that format variation causes revisions or errors. | Template choice and review responsibility may be inconsistent. | Review proposal samples, revision reasons and approval practice. | P1 |
+| G3 | Setup readiness | T3 | Urgent work sometimes begins before Asana and folders are ready. | Work may lack a shared location or recorded owner at the point it starts. No actual loss or unauthorized work is established. | The urgent-start path may lack a documented minimum setup rule. | Ask who authorizes early starts and how setup is completed afterward. | P1 |
+| G4 | Assignment visibility | T4 | Both PM-led and direct partner assignment occur. Capacity is tracked in a spreadsheet. | An unrecorded assignment could distort the shared capacity view. Whether reconciliation already happens is unknown. | Notification and reconciliation rules may be unclear. | Confirm partner-to-PM notification, capacity updates and conflict resolution. | P1 |
+| G5 | Status and documentation | T5, T8 | Slack/email can replace Asana updates; information is spread across several tools. | The partner explicitly reports extra coordination and search effort. Its frequency and cost are unmeasured. | Record ownership, tool friction or duplicate-entry effort may contribute. | Trace sample updates and ask why consultants use alternate channels. | P1 |
+| G6 | Client reporting | T6 | Meetings, reports and calls vary across clients. | Variation can be appropriate. The gap is that ownership and the selection rule are not described, not that every client needs one format. | Kickoff agreements may not capture cadence, format and owner consistently. | Ask how reporting preferences are agreed and recorded. | P2 |
+| G7 | Hourly billing readiness | T7 | Late time entries sometimes delay hourly invoices. | Invoice timing is affected. The size of the delay and any cash-flow impact are not quantified. | Deadlines, reminders or escalation ownership may be unclear. | Confirm time system, cutoff, approval steps and exception handling. | P1 |

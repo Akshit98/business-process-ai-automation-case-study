@@ -1,26 +1,13 @@
-# Root-cause hypotheses
+# Root-cause analysis
 
-These are hypotheses for a future discovery exercise. No stakeholder interviews or production validation were performed.
+I separated symptoms from explanations. The partner reports fragmentation and additional coordination; the transcript does not prove a particular software, training or ownership failure causes every issue.
 
-## Where work can break
-
-Only inconsistent HubSpot logging is an explicit problem in the supplied scenario. The remaining rows are potential failure modes, not confirmed findings.
-
-| Pain point / status | Root-cause hypothesis | Validation and proposed response |
-| --- | --- | --- |
-| Incomplete CRM history / supplied | No consistent entry standard or owner at the discovery handoff. | Audit recent discovery records; ask who logs each field. Require source, owner, call date, next step and due date. |
-| Leads missed across channels / hypothesis | Referral and LinkedIn enquiries may stay outside a shared queue. | Compare channel records with CRM intake; introduce one capture route and an unassigned-lead queue. |
-| Setup rework / hypothesis | Agreement details may be retyped into project tasks. | Trace agreement-to-project handoffs; use approved fields and a project template. |
-| Assignment delays / hypothesis | Skills and availability may be checked informally. | Review assignment decisions with delivery lead; require a capacity check and named approver. |
-| Unclear delivery status / hypothesis | Milestones and client updates may have different owners. | Compare project records with update cadence; assign milestone owners and review overdue items. |
-| Billing delays / hypothesis | Time entries may lack project IDs or timely approval. | Trace invoice preparation; validate IDs, submission cutoffs and finance sign-off. |
-
-
-### Discovery questions before building
-
-Who owns a lead before discovery? What makes an agreement ready for delivery? Which service types need different project templates? Where are time and invoices recorded? What client-data restrictions apply? Capture answers and revise this design before a pilot.
-
-
-## Validation log to collect
-
-For each issue, record a sample record ID, observed failure, proposed cause, interview evidence, alternative explanation, owner and status. A missing CRM field alone does not prove a training problem: first check ownership, permissions, field design and duplicate records.
+| ID | Observed issue | Possible explanation | Next evidence needed |
+| --- | --- | --- | --- |
+| G1 | Some leads are not logged in HubSpot. | Ownership, timing or intake rules may be unclear. | Reconcile enquiries with CRM; confirm who captures unscheduled and referral calls. |
+| G2 | Proposal formats vary; revisions occur. | Template choice and review responsibility may be inconsistent. | Review proposal samples, revision reasons and approval practice. |
+| G3 | Urgent work sometimes begins before Asana and folders are ready. | The urgent-start path may lack a documented minimum setup rule. | Ask who authorizes early starts and how setup is completed afterward. |
+| G4 | Both PM-led and direct partner assignment occur. Capacity is tracked in a spreadsheet. | Notification and reconciliation rules may be unclear. | Confirm partner-to-PM notification, capacity updates and conflict resolution. |
+| G5 | Slack/email can replace Asana updates; information is spread across several tools. | Record ownership, tool friction or duplicate-entry effort may contribute. | Trace sample updates and ask why consultants use alternate channels. |
+| G6 | Meetings, reports and calls vary across clients. | Kickoff agreements may not capture cadence, format and owner consistently. | Ask how reporting preferences are agreed and recorded. |
+| G7 | Late time entries sometimes delay hourly invoices. | Deadlines, reminders or escalation ownership may be unclear. | Confirm time system, cutoff, approval steps and exception handling. |
