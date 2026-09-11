@@ -1,3 +1,10 @@
+# Workflow diagrams
+
+The current state follows the supplied transcript. Dotted exits identify unspecified handling. The proposed future state includes new controls requiring validation.
+
+## Current state
+
+```mermaid
 flowchart TD
   A[Lead: referral / LinkedIn / website] --> B[Discovery: partner or consultant]
   B --> C{HubSpot record captured?}
@@ -41,3 +48,34 @@ flowchart TD
   AF -->|When entries arrive| AE
   AC --> AG[Invoice cycle; payment / close-out not described]
   AE --> AG
+```
+
+## Proposed future state
+
+```mermaid
+flowchart TD
+  A[Capture all channels; manual route for unscheduled calls] --> B[Discovery owner validates CRM record]
+  B --> C[Fit decision and recorded next action]
+  C --> D[Standard proposal template + named reviewer]
+  D --> E{Client response}
+  E -->|Revisions| D
+  E -->|Accepts| F[Signed agreement + approved scope version]
+  F --> G{Setup ready?}
+  G -->|Yes| H[Linked Asana project + Drive folder + owner]
+  G -->|No| I{Authorized urgent start?}
+  I -->|No| J[Hold start and complete setup]
+  J --> G
+  I -->|Yes| K[Log minimum record, approver, reason and setup deadline]
+  H --> L[PM or partner assigns; update shared capacity + notify PM]
+  K --> L
+  L --> M[Delivery with approved Asana status]
+  M --> N[Optional AI draft from selected source updates]
+  N --> O[Consultant reviews; client communication owner approves release]
+  O --> P[Client-specific agreed format and cadence]
+  P --> Q{Billing model}
+  Q -->|Fixed fee| R[Contract schedule; accounting checks invoice]
+  Q -->|Hourly| S[Cutoff reminders + missing-time flags]
+  S --> T[Review time; accounting approves invoice]
+  T --> U[Invoice cycle; confirm close-out separately]
+  R --> U
+```

@@ -1,1 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="950" viewBox="0 0 820 950" role="img" aria-label="Proposed future-state workflow"><style>text{font-family:Arial,sans-serif;fill:#152c43}.head{font-size:20px;font-weight:bold}.body{font-size:16px}</style><rect width="820" height="950" fill="white"/><text x="40" y="44" class="head">Proposed future-state workflow</text><text x="40" y="74" class="body">Akshit Didla | Independent design case study</text><rect x="40" y="106" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="136" class="head">01  Capture &amp; own</text><text x="60" y="162" class="body">Record source, contact and sales owner · Sales owner</text><path d="M410 186v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="206" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="236" class="head">02  Review discovery</text><text x="60" y="262" class="body">Approve notes, scope and next action · Sales owner</text><path d="M410 286v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="306" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="336" class="head">03  Validate readiness</text><text x="60" y="362" class="body">Return missing required fields for correction · Sales owner</text><path d="M410 386v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="406" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="436" class="head">04  Approve agreement</text><text x="60" y="462" class="body">Confirm signed agreement and scope version · Sales + delivery</text><path d="M410 486v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="506" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="536" class="head">05  Create once</text><text x="60" y="562" class="body">Create or retrieve a linked Asana project · Automation + operations</text><path d="M410 586v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="606" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="636" class="head">06  Check capacity</text><text x="60" y="662" class="body">Approve consultant and target start date · Delivery lead</text><path d="M410 686v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="706" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="736" class="head">07  Review progress</text><text x="60" y="762" class="body">Track milestones; approve client updates · Project lead</text><path d="M410 786v20m-4-5 4 5 4-5" fill="none" stroke="#146c72" stroke-width="2"/><rect x="40" y="806" width="740" height="80" rx="8" fill="#eef4f8"/><text x="60" y="836" class="head">08  Reconcile billing</text><text x="60" y="862" class="body">Approve time against contractual billing basis · Delivery + finance</text><text x="40" y="938" class="body">Scenario-based analysis. Proposed changes have not been implemented.</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="499" height="590" preserveAspectRatio="xMinYMin meet" viewBox="0 0 499 590" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="499" height="590"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-590)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="574" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1148) scale(1,-1)">Future state / Proposed controls</text>
+			<text x="0" y="541" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,1082) scale(1,-1)">01  Capture + proposal</text>
+			<rect x="0" y="488" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="515" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1030) scale(1,-1)">All-channel intake with a named owner</text>
+			<text x="10" y="503" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1006) scale(1,-1)">Manual path for unscheduled discovery</text>
+			<rect x="255" y="488" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="515" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Standard proposal + reviewer</text>
+			<text x="265" y="503" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,1006) scale(1,-1)">Client revisions return to author</text>
+			<text x="4" y="474" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,948) scale(1,-1)">Rules first. Optional AI drafts need source-backed review.</text>
+			<path d="M 249,464 L 249,450 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 453, 252 453, 249 448" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="438" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,876) scale(1,-1)">02  Agreement + readiness</text>
+			<rect x="0" y="385" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="412" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,824) scale(1,-1)">Signed agreement, scope version,</text>
+			<text x="10" y="400" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,800) scale(1,-1)">linked Asana project and Drive folder</text>
+			<rect x="255" y="385" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="412" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,824) scale(1,-1)">Urgent exception: approver + reason,</text>
+			<text x="265" y="400" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,800) scale(1,-1)">minimum record and setup deadline</text>
+			<text x="4" y="371" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,742) scale(1,-1)">Normal work waits for readiness; urgent starts remain visible.</text>
+			<path d="M 249,361 L 249,347 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 350, 252 350, 249 345" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="335" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,670) scale(1,-1)">03  Assignment + delivery</text>
+			<rect x="0" y="282" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="309" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,618) scale(1,-1)">PM or partner records assignment</text>
+			<text x="10" y="297" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,594) scale(1,-1)">Shared capacity view + PM notification</text>
+			<rect x="255" y="282" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="309" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,618) scale(1,-1)">Consultant updates approved Asana status</text>
+			<text x="265" y="297" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,594) scale(1,-1)">Optional draft from selected Slack/email</text>
+			<text x="4" y="268" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,536) scale(1,-1)">Retain the spreadsheet if it supports shared ownership and timely updates.</text>
+			<path d="M 249,258 L 249,244 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 247, 252 247, 249 242" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="232" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,464) scale(1,-1)">04  Client reporting</text>
+			<rect x="0" y="179" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="206" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,412) scale(1,-1)">Agree format, cadence and owner</text>
+			<text x="10" y="194" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,388) scale(1,-1)">at kickoff for each client</text>
+			<rect x="255" y="179" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="206" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,412) scale(1,-1)">Reviewer approves status / proposal</text>
+			<text x="265" y="194" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,388) scale(1,-1)">before any client-facing release</text>
+			<text x="4" y="165" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,330) scale(1,-1)">Standardize the agreement, not necessarily the communication format.</text>
+			<path d="M 249,155 L 249,141 Z" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="246 144, 252 144, 249 139" style="stroke: rgb(9%,41%,43%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,43%); fill-rule: evenodd;"/>
+			<text x="0" y="129" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,41%,43%); stroke:none;" transform="translate(0,258) scale(1,-1)">05  Billing readiness</text>
+			<rect x="0" y="76" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="10" y="103" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,206) scale(1,-1)">Fixed-fee: contractual invoice schedule</text>
+			<text x="10" y="91" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,182) scale(1,-1)">Accounting checks release</text>
+			<rect x="255" y="76" width="244" height="43" rx="5" ry="0" style="stroke: rgb(74%,80%,85%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(92%,95%,97%); fill-rule: evenodd;"/>
+			<text x="265" y="103" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,206) scale(1,-1)">Hourly: cutoff reminders + reviewed time</text>
+			<text x="265" y="91" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,27%); stroke:none;" transform="translate(0,182) scale(1,-1)">Missing entries escalate before invoicing</text>
+			<text x="4" y="62" style="font-family: Helvetica; font-size: 8px;fill: rgb(31%,39%,46%); stroke:none;" transform="translate(0,124) scale(1,-1)">Proposed controls. No production implementation or measured outcomes.</text>
+		</g>
+	</g>
+</svg>
