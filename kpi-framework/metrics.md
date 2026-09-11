@@ -1,23 +1,16 @@
-## Measure before claiming impact
+# KPI framework
 
-No baseline has been collected. The thresholds below are illustrative pilot acceptance targets, subject to approval after a two-week baseline. They are not forecasts or achieved results.
+No baseline or measured improvement is available. Numerical gates below are illustrative proposed pilot thresholds. Agree them after a two-week baseline, then compare a four-week pilot for the same service type. Report denominator, sample size, exclusions and complexity.
 
-| KPI / calculation | Data and owner | Proposed pilot target |
-| --- | --- | --- |
-| CRM completeness: records with every required discovery field / eligible discovery records x 100 | Weekly CRM audit; sales owner. Count each discovery record once. | At least 95% complete. |
-| Handoff cycle time: median business hours from signed-and-validated readiness to project creation | Readiness and creation timestamps; operations. Also show 90th percentile. | Median at most 1 business day; agree business calendar. |
-| Handoff first-pass rate: handoffs accepted without correction / all submitted handoffs x 100 | Handoff review log; delivery lead. Include rejected submissions. | At least 90% accepted first time. |
-| On-time time submission: entries submitted by cutoff / entries due x 100 | Time system and expected submission roster; delivery lead. | At least 95%; agree cutoff first. |
-| Automation reliability: eligible handoffs completed within agreed SLA without manual repair / eligible handoffs x 100 | Event log reconciled to source handoffs; operations. Count logical events, not retry attempts. | At least 98%; zero duplicate projects. |
-| AI draft factual accuracy: supported factual statements / all factual statements reviewed x 100 | Source-versus-draft review log; sales/project lead. | At least 95% in pilot; zero unapproved commitments released. |
+| KPI | Definition | Data / owner | Cadence | Proposed gate | Control |
+| --- | --- | --- | --- | --- | --- |
+| CRM capture completeness | Captured eligible enquiries / all enquiries found in reconciled channel records x 100 | Intake/channel records + HubSpot; discovery owner | Weekly | At least 95% | Do not use CRM records alone as the denominator; that hides unlogged leads. |
+| Standard-start readiness | Standard project starts with the full checklist completed before work / all standard starts x 100 | Asana/Drive links + start times; PM | Weekly | At least 95% | Report urgent starts separately, including approval and setup-completion timeliness. |
+| Assignment reconciliation | Assignments entered in the shared capacity view within the agreed window / all assignments x 100 | PM and partner assignment log + capacity tracker; PM | Weekly | 100% within 1 business day | Include both assignment paths; measure any conflicts separately. |
+| On-time status update | Active projects with an approved update by the agreed weekly cutoff / active projects due an update x 100 | Asana and project roster; PM | Weekly | At least 95% | A Slack message alone does not count until reflected in the approved record. |
+| Time-related invoice delay | Hourly invoices due but delayed because time is missing / hourly invoices due x 100 | Time records + invoice schedule + reason log; accounting | Billing cycle | At most 5% | Exclude fixed-fee invoices; report delay days and other delay reasons separately. |
+| Net coordination effort | Median total minutes per comparable project-week spent collecting, reviewing, correcting and locating updates | Short activity log; PM and consultants | Weekly | Set after baseline | Compare the same service type and report sample size; do not count draft time alone. |
 
+## AI and reliability guardrails
 
-### Evaluation design
-
-Compare a two-week baseline with a four-week pilot for the same service type. Report sample sizes, exclusions and case complexity. Review all pilot handoffs and AI drafts; if volume is low, extend the pilot rather than claim improvement from a few cases. Record correction time alongside any drafting-time savings.
-
-
-### Benefit logic
-
-Expected value is less re-entry, fewer missing fields and faster readiness checks. Estimate monthly net hours only after measuring: eligible cases x median minutes saved / 60, minus review and exception-handling hours. No financial benefit is asserted here.
-
+All client-facing AI drafts require approval; release no unsupported commitments. Count logical handoffs rather than retry attempts; tolerate zero duplicate project creations. Record failures and recovery time. These are proposed control gates, not achieved performance.
